@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+  
+  
+  
+  
+  * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+
+  }
+  
+  .attribution { 
+      font-size: 11px; text-align: center; 
+    }
+
+
+  .attribution a { 
+      color: hsl(228, 45%, 44%); 
+    }
+
+    body{
+
+        background-color: hsl(185, 75%, 39%);
+
+    }
+
+    h1, p {
+        font-size: 18px;
+        font-family: 'Kumb Sans', sans-serif;
+        color: hsl(0, 0%, 59%);
+        font-weight: 400;
+
+    }
+
+    h1 {
+        font-weight: 700;
+        color: hsl(227, 10%, 46%);
+    }
+
+    .stats-sect h1, p {
+        text-align: center;
+        padding: 0 5px;
+
+    }
+
+    .stats-sect .name-container {
+        margin-top: 65px;
+        display: flex;
+        justify-content: center;
+
+
+    }
+
+    .name-city {
+        margin-bottom: 30px;
+
+    }
+
+    .stats-sect .flex {
+        flex-direction: row;
+        justify-content: center;
+
+
+    }
+
+    .container {
+        position: relative;
+        width: 100vw;
+        height: 100vh;   
+        overflow: hidden;
+    }
+
+
+
+    .flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .stats-container {
+        border-top: hsl(227, 10%, 46%) 1px solid;
+        padding-top: 30px;
+    }
+
+    .stats-sect .stats-container  {
+        justify-content: space-evenly;
+
+
+    }
+
+    .small-text p {
+        font-size: .75rem;
+
+    }
+
+
+    .top-left {
+        position: absolute;
+        bottom: 40%;
+        right: 55%;
+    }
+    
+    .bottom-right {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+    }
+
+    .card {
+
+        width: 300px;
+        height: 350px;
+        background-color: white;
+        margin: 150px auto;
+        z-index: 100;
+        position: relative;
+        border-radius: 10%;
+        
+    }
+
+    .small-container {
+        height: 120px;
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        background-image: url('/images/bg-pattern-card.svg');
+    }
+   
+   
+   
+
+
+    .card .profile-pic {
+        max-width: 100px;
+        height: auto;
+
+        border: white 5px solid;
+        border-radius: 50%;
+        z-index: 100;
+        position: absolute;
+        top: 80px;
+        left: 100px;
+    }
+
+
